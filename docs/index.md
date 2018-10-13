@@ -56,7 +56,7 @@ Let's create an HTML file to follow along:
 
 ```markup
 <body>
-	<script src="//unpkg.com/mithril/mithril.js"></script>
+	<script src="https://unpkg.com/mithril/mithril.js"></script>
 	<script>
 	var root = document.body
 
@@ -225,7 +225,7 @@ var Splash = {
 
 As you can see, this component simply renders a link to `#!/hello`. The `#!` part is known as a hashbang, and it's a common convention used in Single Page Applications to indicate that the stuff after it (the `/hello` part) is a route path.
 
-Now that we going to have more than one screen, we use `m.route` instead of `m.mount`.
+Now that we're going to have more than one screen, we use `m.route` instead of `m.mount`.
 
 ```javascript
 m.route(root, "/splash", {
